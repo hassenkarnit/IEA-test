@@ -86,7 +86,7 @@ function App() {
                 <td className="py-2 px-4 border-b">{item.country}</td>
                 <td className="py-2 px-4 border-b">{item.region}</td>
                 <td className="py-2 px-4 border-b">
-                  {item.total_energy_supply}
+                  {item["Total energy supply"]}
                 </td>
               </tr>
             ))}
